@@ -4,4 +4,5 @@ const user ={
     phone:32456789,
     collage:"itm"
 }
-console.log(user.name)
+console.log(user.city)
+console.log(user.collage)
