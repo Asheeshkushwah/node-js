@@ -12,5 +12,5 @@
 // /console.log(__filename)
 let data =require('./student.js')
 console.log(data.user.phone)
-console.log(itm[1])
+console.log( data.itm[1])
 data.mpct()
