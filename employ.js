@@ -11,7 +11,7 @@ const emp = {
 const user = {
     name:"raj",
     city:"gwl",
-    phone:123456
+    phone:123456,
 }
 const name ="pninfosys"
 
