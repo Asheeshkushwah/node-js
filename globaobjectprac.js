@@ -11,6 +11,6 @@
 // console.log(__filename)
 
 let data =('./employe.js')
-console.log(data.pn.phone)
-console.log(data.ash.itm[1])
+console.log(data.ash.phone)
+console.log(data.update.itm[1])
 data.ash.mpct()

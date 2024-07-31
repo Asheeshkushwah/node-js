@@ -1,0 +1,10 @@
+///templating string
+
+let name = 'raj'
+let age = 28
+console.log("h1" + name + "you are" + age + "years old")
+
+//template string
+console.log(`hello${name} you are ${age}years old`);
+
+console.log(`name${name} you are ${age}`);
