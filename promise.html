@@ -1,0 +1,19 @@
+<script>
+    function prom(pn) {
+        return new Promise(function (res, rej) {
+            if (pn) {
+                res("yes")
+            } else {
+                rej("no")
+            }
+        })
+    }
+    prom(true).then((result) => {
+        document.write(result)
+    }).catch((error) => {
+        console.log(error)
+    })
+
+    console.log(prom(true))
+    console.log("hello gwalior")
+</script>

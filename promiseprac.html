@@ -1,0 +1,19 @@
+<script>
+    function prom(ash) {
+        return new Promise(function (sect, reje) {
+            if (ash) {
+                sect("ha")
+            } else {
+                reje("nahi")
+            }
+        })
+    }
+    prom(false).then((result) => {
+        document.write(result)
+    }).catch((error) => {
+        console.log(error)
+    })
+
+    console.log(prom(false))
+    console.log("hello gwalior")
+</script>
