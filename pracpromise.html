@@ -1,0 +1,19 @@
+<script>
+    function prom(ash){
+        return new promise(function(res,rej){
+            if(ash){
+                res("yes")
+            }else{
+                rej("no")
+            }
+        })
+    }
+    prom (true).then((result)=>{
+        document.write(result)
+    }).catch((error)=>{
+        console.log(error)
+    })
+
+    console.log(prom(true))
+    console.log("hello delhi")
+</script>
