@@ -1,7 +1,7 @@
 <script>
-    function prom(pn) {
-        return new Promise(function (res, rej){
-            if (pn) {
+    function prom(amit) {
+        return new Promise(function (rej, res) {
+            if (amit) {
                 res("yes")
             } else {
                 rej("no")
@@ -10,10 +10,9 @@
     }
     prom(true).then((result) => {
         document.write(result)
-    }).catch((error) => {
+    }).catch((eror)=>{
         console.log(error)
     })
-
     console.log(prom(true))
-    console.log("hello gwalior")
+    console.log("noida")
 </script>

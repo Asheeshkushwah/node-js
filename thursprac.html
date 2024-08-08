@@ -1,0 +1,18 @@
+<script>
+    function prom (ram){
+        return new Promise(function(resolve,reject){
+            if(ram){
+               resolve("yes") 
+            }else{
+                reject("sorry")
+            }
+        })
+    }
+    prom(true).then((result)=>{
+        document.write(result)
+    }).catch((error)=>{
+        console.log(error)
+    })
+    console.log(prom(true))
+    console.log("hello delhi")
+</script>
